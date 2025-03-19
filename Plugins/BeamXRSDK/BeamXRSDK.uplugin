@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "0.5",
+	"VersionName": "0.5.1",
 	"FriendlyName": "BeamXR SDK",
 	"Description": "BeamXR Local Recording",
 	"Category": "Streaming",
@@ -15,11 +15,10 @@
 	"Installed": true,
 	"Modules": [
 		{
-			"Name": "BeamXRSDK",
+			"Name": "AndroidNative",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"PlatformAllowList": [
-				"Win64",
 				"Android"
 			]
 		},
@@ -33,10 +32,11 @@
 			]
 		},
 		{
-			"Name": "AndroidNative",
+			"Name": "BeamXRSDK",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"PlatformAllowList": [
+				"Win64",
 				"Android"
 			]
 		}
